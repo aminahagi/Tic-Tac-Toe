@@ -91,7 +91,7 @@ function TicTacToe() {
     }, [tiles]);
 
     useEffect(() => {
-        if (tiles.some((tile) => !== null)) {
+        if (tiles.some((tile)=>tile !== null)) {
             clickSound.play();
         }
     }, [tiles]);
