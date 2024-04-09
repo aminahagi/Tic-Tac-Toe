@@ -65,7 +65,7 @@ function TicTacToe() {
             return;
         }
 
-        if (tiles[index] !== nulll) {
+        if (tiles[index] !== null) {
             return;
         }
 
