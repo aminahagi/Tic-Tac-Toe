@@ -3,7 +3,7 @@ import Tile from "./Tile";
 
 function Board({ tiles, onTileClick, playerTurn, strikeClass }) {
     return (
-    <div className="Board">
+    <div className="board">
         <Tile playerTurn={playerTurn} onClick={()=> onTileClick(0)} value={tiles[0]} className='right-border bottom-border' />
         <Tile playerTurn={playerTurn} onClick={()=> onTileClick(1)} value={tiles[1]} className='right-border bottom-border'/>
         <Tile playerTurn={playerTurn} onClick={()=> onTileClick(2)} value={tiles[2]} className='bottom-border'/>
